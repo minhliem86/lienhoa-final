@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'GothamVnu-Bold';
+  src: url('GothamVnu-Bold.eot');
+  src: url('GothamVnu-Bold.eot?#iefix') format('embedded-opentype'),
+       url('GothamVnu-Bold.woff2') format('woff2'),
+       url('GothamVnu-Bold.woff') format('woff'),
+       url('GothamVnu-Bold.ttf') format('truetype'),
+       url('GothamVnu-Bold.svg#GothamVnu-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

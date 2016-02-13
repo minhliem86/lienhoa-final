@@ -1,0 +1,552 @@
+@import url(../fonts/gotham/font.css);
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  margin: 0;
+  list-style-type: none; }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none !important;
+  outline: none !important; }
+
+.clear {
+  clear: both; }
+
+body.xanh nav {
+  background: #215524;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #215524 0%, #55934e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #215524 0%, #55934e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #215524 0%, #55934e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+body.xanh .top-box {
+  border-left: 5px solid #fd0900;
+  border-bottom: 2px spmotaolid #fd0900;
+  background: #28c832;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #28c832 0%, #0ba813 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #28c832 0%, #0ba813 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #28c832 0%, #0ba813 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+body.xanh .block h2.title-block span {
+  background: #979897;
+  border-left: 8px solid #fd0900;
+  position: relative; }
+  body.xanh .block h2.title-block span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 15px solid #979897; }
+    @media screen and (max-width: 480px) {
+      body.xanh .block h2.title-block span:after {
+        border-top: 16px solid transparent;
+        border-bottom: 16px solid transparent; } }
+body.xanh .wrap-name {
+  background: #9eeba2; }
+  body.xanh .wrap-name .name-sp {
+    color: #215524;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px; }
+    @media screen and (max-width: 480px) {
+      body.xanh .wrap-name .name-sp {
+        font-size: 12px; } }
+  body.xanh .wrap-name p.mota {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #215524; }
+    @media screen and (max-width: 480px) {
+      body.xanh .wrap-name p.mota {
+        font-size: 11px; } }
+body.xanh .sanpham-page span.all a {
+  color: #215524; }
+
+.page {
+  margin: 10px 0; }
+
+header section.logo {
+  margin-bottom: 20px;
+  position: relative; }
+  header section.logo a.logo-link {
+    margin-left: 15px; }
+    @media screen and (max-width: 480px) {
+      header section.logo a.logo-link {
+        margin-left: 0;
+        display: block;
+        margin-bottom: 10px;
+        text-align: center; } }
+  header section.logo .right-header {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    width: 40%;
+    right: 0; }
+    @media screen and (max-width: 991px) {
+      header section.logo .right-header {
+        width: 60%; } }
+    @media screen and (max-width: 767px) {
+      header section.logo .right-header {
+        width: 55%; } }
+    @media screen and (max-width: 480px) {
+      header section.logo .right-header {
+        position: static;
+        width: 100%;
+        top: 0;
+        transform: translateY(0);
+        -webkite-transform: translateY(0);
+        -moz-transform: translateY(0); } }
+    header section.logo .right-header .diachi {
+      padding-right: 15px; }
+      @media screen and (max-width: 480px) {
+        header section.logo .right-header .diachi {
+          padding-right: 0; } }
+      header section.logo .right-header .diachi p {
+        font-size: 14px;
+        font-family: 'GothamVnu-Bold';
+        text-transform: uppercase;
+        text-align: right; }
+        @media screen and (max-width: 767px) {
+          header section.logo .right-header .diachi p {
+            font-size: 12px; } }
+        @media screen and (max-width: 480px) {
+          header section.logo .right-header .diachi p {
+            text-align: center; } }
+header nav div.navigation-bar {
+  display: inline-block; }
+  @media screen and (max-width: 767px) {
+    header nav div.navigation-bar {
+      display: block; }
+      header nav div.navigation-bar .navbar-header button {
+        border: 1px solid #fff;
+        border-radius: 3px;
+        float: left;
+        margin-left: 15px;
+        margin-right: 0; }
+        header nav div.navigation-bar .navbar-header button .icon-bar {
+          height: 2px;
+          background: #fff; }
+        header nav div.navigation-bar .navbar-header button.search-btn {
+          padding: 6px 15px;
+          color: white;
+          float: right;
+          margin-right: 15px; }
+      header nav div.navigation-bar .navbar-header .navbar-brand {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        font-weight: bold; } }
+  header nav div.navigation-bar ul.main-menu {
+    display: block; }
+    header nav div.navigation-bar ul.main-menu li {
+      display: inline-block;
+      padding: 10px 30px; }
+      header nav div.navigation-bar ul.main-menu li a {
+        display: block;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s; }
+        @media screen and (max-width: 480px) {
+          header nav div.navigation-bar ul.main-menu li a {
+            font-size: 14px; } }
+        header nav div.navigation-bar ul.main-menu li a:hover {
+          color: #fff500; }
+        @media screen and (max-width: 991px) {
+          header nav div.navigation-bar ul.main-menu li a {
+            font-size: 14px; } }
+      header nav div.navigation-bar ul.main-menu li.active a {
+        color: #fff500; }
+      header nav div.navigation-bar ul.main-menu li:first-child {
+        padding-left: 0; }
+      @media screen and (max-width: 1199px) {
+        header nav div.navigation-bar ul.main-menu li {
+          padding: 10px 20px; } }
+      @media screen and (max-width: 991px) {
+        header nav div.navigation-bar ul.main-menu li {
+          padding: 10px; } }
+      @media screen and (max-width: 767px) {
+        header nav div.navigation-bar ul.main-menu li {
+          display: block;
+          padding: 10px 0; } }
+header nav .wrap-formSearch {
+  display: inline-block;
+  width: 300px;
+  margin: 5px 15px 0 15px;
+  float: right; }
+  @media screen and (min-width: 1200px) {
+    header nav .wrap-formSearch {
+      visibility: visible; } }
+  @media screen and (max-width: 1199px) {
+    header nav .wrap-formSearch {
+      width: 200px;
+      visibility: visible; } }
+  @media screen and (max-width: 767px) {
+    header nav .wrap-formSearch {
+      display: none;
+      width: 100%;
+      margin: 0;
+      float: none;
+      padding-top: 10px;
+      background: #fff; } }
+
+section.body {
+  margin-bottom: 20px; }
+  section.body section.banner {
+    margin-bottom: 20px; }
+  @media screen and (max-width: 767px) {
+    section.body section.content-area {
+      padding: 0 15px; } }
+  @media screen and (max-width: 480px) {
+    section.body section.content-area {
+      padding: 0 15px; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    section.body section.content-area .sidebar {
+      overflow: hidden; } }
+  section.body section.content-area .sidebar .box {
+    margin-bottom: 15px; }
+    section.body section.content-area .sidebar .box .top-box {
+      padding: 10px 20px; }
+      section.body section.content-area .sidebar .box .top-box h3.title-box {
+        color: white;
+        font-weight: bold;
+        font-family: 'GothamVnu-Bold';
+        text-transform: uppercase; }
+        @media screen and (max-width: 480px) {
+          section.body section.content-area .sidebar .box .top-box h3.title-box {
+            font-size: 12px; } }
+        @media screen and (max-width: 1199px) {
+          section.body section.content-area .sidebar .box .top-box h3.title-box {
+            font-size: 14px; } }
+    section.body section.content-area .sidebar .box .content-box {
+      background: #e5e5e5; }
+      section.body section.content-area .sidebar .box .content-box .list-danhmuc {
+        padding: 10px; }
+        section.body section.content-area .sidebar .box .content-box .list-danhmuc li {
+          padding: 5px 0;
+          transition: all 0.3s;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          -o-transition: all 0.3s; }
+          section.body section.content-area .sidebar .box .content-box .list-danhmuc li i {
+            margin-right: 5px; }
+          section.body section.content-area .sidebar .box .content-box .list-danhmuc li a {
+            display: block;
+            color: #242424;
+            font-size: 14px;
+            text-transform: capitalize;
+            font-family: 'GothamVnu-Bold'; }
+          section.body section.content-area .sidebar .box .content-box .list-danhmuc li:hover, section.body section.content-area .sidebar .box .content-box .list-danhmuc li.active {
+            background: #838383;
+            padding-left: 15px; }
+            section.body section.content-area .sidebar .box .content-box .list-danhmuc li:hover a, section.body section.content-area .sidebar .box .content-box .list-danhmuc li.active a {
+              color: white; }
+      section.body section.content-area .sidebar .box .content-box .wrap-hotro {
+        padding: 10px 25px; }
+        section.body section.content-area .sidebar .box .content-box .wrap-hotro .block-hotro {
+          margin-bottom: 8px; }
+          section.body section.content-area .sidebar .box .content-box .wrap-hotro .block-hotro p {
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            color: #242424;
+            font-weight: 600; }
+            section.body section.content-area .sidebar .box .content-box .wrap-hotro .block-hotro p.phone {
+              font-size: 20px;
+              color: #fd0900; }
+      section.body section.content-area .sidebar .box .content-box .wrap-khuyenmai {
+        position: relative; }
+        section.body section.content-area .sidebar .box .content-box .wrap-khuyenmai .ic-hot {
+          position: absolute;
+          top: 0;
+          right: 0; }
+        section.body section.content-area .sidebar .box .content-box .wrap-khuyenmai img {
+          margin: 0 auto; }
+  section.body section.content-area .content .block {
+    margin-bottom: 20px; }
+    section.body section.content-area .content .block h2.title-block {
+      margin-bottom: 10px;
+      font-family: 'GothamVnu-Bold';
+      font-size: 16px;
+      text-transform: uppercase; }
+      @media screen and (max-width: 480px) {
+        section.body section.content-area .content .block h2.title-block {
+          font-size: 12px; } }
+      section.body section.content-area .content .block h2.title-block span {
+        padding: 10px 20px;
+        display: inline-block;
+        color: white; }
+  section.body section.content-area .content .wrap-sp {
+    box-shadow: 1px 1px 5px 0px #636363;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px; }
+    section.body section.content-area .content .wrap-sp .wrap-name {
+      position: absolute;
+      padding: 5px;
+      text-align: center;
+      width: 100%;
+      z-index: 10;
+      bottom: -50px;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      opacity: 0; }
+      @media screen and (max-width: 480px) {
+        section.body section.content-area .content .wrap-sp .wrap-name {
+          bottom: 0;
+          opacity: 1; } }
+    section.body section.content-area .content .wrap-sp .filter {
+      background: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 5;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      opacity: 0; }
+    section.body section.content-area .content .wrap-sp .img-sp {
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1); }
+    section.body section.content-area .content .wrap-sp:hover .wrap-name {
+      opacity: 1;
+      bottom: 0; }
+    section.body section.content-area .content .wrap-sp:hover .filter {
+      opacity: 1;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1); }
+    section.body section.content-area .content .wrap-sp:hover .img-sp {
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9); }
+  section.body section.content-area .content .gioithieu-page p {
+    margin-bottom: 10px; }
+  section.body section.content-area .content .tintuc-page .wrap-tintuc {
+    margin-bottom: 15px; }
+  section.body section.content-area .content .tintuc-page .relate p.not {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; }
+  section.body section.content-area .content .tintuc-page .relate ul {
+    padding-left: 15px; }
+    section.body section.content-area .content .tintuc-page .relate ul li {
+      list-style-type: disc;
+      padding: 3px 0; }
+      section.body section.content-area .content .tintuc-page .relate ul li a {
+        display: block;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #215524; }
+  section.body section.content-area .content .each-tintuc {
+    margin-bottom: 15px; }
+    section.body section.content-area .content .each-tintuc h3.title-tintuc {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      margin-bottom: 5px;
+      font-weight: 600; }
+    section.body section.content-area .content .each-tintuc p.time {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      margin-bottom: 8px; }
+    section.body section.content-area .content .each-tintuc p.readmore {
+      text-align: right; }
+      section.body section.content-area .content .each-tintuc p.readmore a {
+        color: #215524;
+        font-weight: bold; }
+  section.body section.content-area .content .wrap-lienhe #form-lienhe p.note {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px; }
+  section.body section.content-area .content .wrap-lienhe #form-lienhe label {
+    font-size: 14px; }
+  section.body section.content-area .content .wrap-lienhe .info {
+    margin-bottom: 5px; }
+    section.body section.content-area .content .wrap-lienhe .info h4 {
+      font-size: 18px;
+      font-family: 'GothamVnu-Bold';
+      margin-bottom: 8px;
+      text-transform: uppercase; }
+    section.body section.content-area .content .wrap-lienhe .info p {
+      font-size: 16px;
+      font-family: 'GothamVnu-Bold';
+      margin-bottom: 5px; }
+  section.body section.content-area .content .wrap-lienhe .share a {
+    font-size: 30px;
+    margin-right: 5px;
+    color: #215524; }
+  section.body section.content-area .content .wrap-lienhe .wrap-map {
+    width: 100%;
+    max-width: 400px;
+    height: 300px; }
+  section.body section.content-area .content .detail-page .wrap {
+    margin-bottom: 20px; }
+    section.body section.content-area .content .detail-page .wrap.detail ul.nav li {
+      padding: 6px 25px;
+      background: #A9A9A9;
+      font-size: 16px;
+      color: white; }
+    section.body section.content-area .content .detail-page .wrap.detail .mota {
+      padding: 10px; }
+    section.body section.content-area .content .detail-page .wrap.wrap-chitiet h4.title-sp {
+      font-size: 20px;
+      font-family: 'GothamVnu-Bold';
+      margin-bottom: 10px; }
+    section.body section.content-area .content .detail-page .wrap.wrap-chitiet p {
+      font-size: 14px;
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: 5px; }
+    @media screen and (max-width: 767px) {
+      section.body section.content-area .content .detail-page .wrap.wrap-chitiet .left-chitiet {
+        margin-bottom: 10px; } }
+  section.body section.content-area .content .sanpham-page .block h2 {
+    display: inline-block; }
+  section.body section.content-area .content .sanpham-page .block span.all {
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+    float: right;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s; }
+    section.body section.content-area .content .sanpham-page .block span.all:hover {
+      padding-right: 10px; }
+    section.body section.content-area .content .sanpham-page .block span.all a {
+      font-size: 12px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600; }
+  section.body section.content-area .content .sanpham-page .each-sp {
+    margin-bottom: 10px; }
+  section.body section.content-area .content .sanpham-page .mot-sp .wrap-sp {
+    box-shadow: 1px 1px 5px 0px #636363;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px; }
+    section.body section.content-area .content .sanpham-page .mot-sp .wrap-sp .wrap-name {
+      position: absolute;
+      padding: 5px;
+      text-align: center;
+      width: 100%;
+      z-index: 10;
+      bottom: -50px;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      opacity: 0; }
+    section.body section.content-area .content .sanpham-page .mot-sp .wrap-sp .filter {
+      background: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 5;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      opacity: 0; }
+    section.body section.content-area .content .sanpham-page .mot-sp .wrap-sp .img-sp {
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1); }
+    section.body section.content-area .content .sanpham-page .mot-sp .wrap-sp:hover .wrap-name {
+      opacity: 1;
+      bottom: 0; }
+    section.body section.content-area .content .sanpham-page .mot-sp .wrap-sp:hover .filter {
+      opacity: 1;
+      transform: scale(1);
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1); }
+    section.body section.content-area .content .sanpham-page .mot-sp .wrap-sp:hover .img-sp {
+      transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9); }
+  section.body section.content-area .content .sanpham-page .wrap-pagination {
+    text-align: right; }
+  section.body section.content-area .content .wrap-relate ul.list-relate li {
+    padding: 0 10px; }
+
+footer {
+  border-top: 30px solid #292929;
+  background: #2e2e2e;
+  padding: 10px 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+  footer .row30 {
+    margin-left: -30px;
+    margin-right: -30px; }
+    @media screen and (max-width: 767px) {
+      footer .row30 {
+        margin-left: 0px;
+        margin-right: 0px; } }
+  footer h1.small-logo {
+    font-size: 30px;
+    color: white;
+    font-family: 'GothamVnu-Bold';
+    text-transform: uppercase; }
+  @media screen and (max-width: 767px) {
+    footer .thongtin-footer {
+      margin-bottom: 10px;
+      text-align: center; } }
+  footer .thongtin-footer p {
+    font-size: 14px; }
+  footer .thongtin-footer p.company-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px; }
+
+.invalid {
+  color: red;
+  display: block;
+  font-size: 11px; }
+
+/*# sourceMappingURL=style.css.map */
