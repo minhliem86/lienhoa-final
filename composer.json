@@ -13,7 +13,8 @@
 		"edvinaskrucas/notification": ">=2",
 		"zizaco/confide": "~4.3@dev",
 		"zizaco/entrust": "1.2.*@dev",
-		"fzaninotto/faker": "^1.5"
+		"fzaninotto/faker": "^1.5",
+		"thujohn/analytics": "dev-master"
 	},
 	"autoload": {
 		"psr-4":{

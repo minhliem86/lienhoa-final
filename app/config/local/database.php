@@ -23,7 +23,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'cms',
+			'database'  => 'lienhoa_db',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

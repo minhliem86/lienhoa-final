@@ -129,7 +129,8 @@ return array(
 		'Krucas\Notification\NotificationServiceProvider',
 		'Zizaco\Entrust\EntrustServiceProvider',
 		'Zizaco\Confide\ServiceProvider',
-		'lienhoa\events\EventServiceProvider'
+		'lienhoa\events\EventServiceProvider',
+		'Thujohn\Analytics\AnalyticsServiceProvider'
 		
 	),
 
@@ -202,8 +203,8 @@ return array(
 		'Images' => 'Intervention\Image\Facades\Image',
 		'Notification' => 'Krucas\Notification\Facades\Notification',
 		'Entrust'    => 'Zizaco\Entrust\EntrustFacade',
-		'Confide'    => 'Zizaco\Confide\Facade'
-		
+		'Confide'    => 'Zizaco\Confide\Facade',
+		'Analytics' => 'Thujohn\Analytics\AnalyticsFacade',
 
 	),
 

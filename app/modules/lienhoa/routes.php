@@ -1,5 +1,7 @@
 <?php
 Route::group(array('prefix'=>'admin','before'=>'checkAdmin','namespace'=>'lienhoa\controllers'),function(){
+	// DASHBOARD
+	Route::get('dashboard',array('as'=> 'admin.dashboard','uses'=>'ThongkeController@getThongke'));
 	// GIOITHIEU
 	Route::any('gioithieu',array('as'=>'admin.gioithieu.index','uses'=>'GioithieuController@index'));
 

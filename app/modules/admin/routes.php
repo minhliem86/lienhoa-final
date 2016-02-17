@@ -3,9 +3,7 @@ Route::get('lienhoafashionadmin',array('as'=>'getLogin','before'=>'checkLogined'
 Route::post('admin/login',array('as'=>'postLogin', 'uses'=>'admin\controllers\UsersController@doLogin'));
 
 Route::group(array('prefix' => 'admin', 'namespace' =>'admin\controllers','before'=>'checkAdmin'), function(){
-	Route::get('dashboard',array('as'=> 'dashboard',function(){
-		return  \View::make('admin::pages.index.index');
-	}));
+	
 	// CATE
 	Route::get('category/delete/{id}', array('as' => 'admin.category.delete', 'uses' => 'CategoriesController@delete'))->where(array('id'=>'[0-9]+'));
 	Route::post('category/show',array('as'=>'admin.category.status', 'uses' => 'CategoriesController@status'));
